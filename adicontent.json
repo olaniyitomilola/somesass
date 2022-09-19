@@ -1,0 +1,34 @@
+{
+    "adcontent" : [
+        {
+            "header": "Up to 70% off Joules",
+            "header-text": "Grab a fashionable saving with lines & prices exclusive to us",
+            "button-text": "Shop now",
+            "background": "red",
+            "color": "#fffff"
+        },
+        {
+            "header": "Discover collectables here",
+            "header-text": "From art, to rare football kits and gaming cards",
+            "button-text": "Explore now",
+            "background": "#E8E8E8",
+            "color": "#111820"
+
+        },
+        {
+            "header": "Save on Autumn essentials",
+            "header-text": "On a budget? We've got you sorted",
+            "button-text":"Shop now",
+            "background": "#E8E8E8",
+            "color": "#111820"
+    
+        },
+        {
+            "header": "Save up to 30% on mobiles with refurshbised",
+            "header-text": "Discover sustainable deals on your next phone",
+            "button-text":"Shop now",
+            "background": "#ACCF04",
+            "color": "#364F03"    
+        }
+    ]
+}
