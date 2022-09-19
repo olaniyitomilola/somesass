@@ -1,0 +1,28 @@
+{
+  "name": "tempapp",
+  "version": "1.0.0",
+  "description": "Logging my temporary works, the page, the job, the agency and all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaniyitomilola/somesass.git"
+  },
+  "keywords": [
+    "work",
+    "uk"
+  ],
+  "author": "Olaniyi Tomilola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olaniyitomilola/somesass/issues"
+  },
+  "homepage": "https://github.com/olaniyitomilola/somesass#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
