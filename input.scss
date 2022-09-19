@@ -63,7 +63,7 @@ main{
     flex-direction: row;
 }
 nav{
-    width: clamp(200px,30%,300px);
+    width: clamp(140px,30%,200px);
     background-color: whitesmoke;
 }
 .container{
@@ -154,7 +154,7 @@ ion-icon{
         overflow: hidden;
         .vados{
             @include ads();
-            width: clamp(200px, 100%, 800px);
+            width: clamp(200px, 100%, 1200px);
             height: 100%;
             overflow: auto;
            
@@ -173,25 +173,45 @@ ion-icon{
     .vados-wrapper{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         height: 100%;
         width: 100%;
-        background-color: #333;
         .vados-left{
-            width: clamp(150px,35%,300px);
-            height: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            #vados-left-head{
-                font-size: 1.5em;
-                padding-right: 2em;
-                
+            width: clamp(200px,35%,350px);
+            padding-left: 3%;
+            white-space: normal;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+
+            #vados-left-head{
+                font-weight: 700;
+                font-size: 1.5em;                
+            }
+            #vados-left-para{
+                margin-top: 1em;
+                font-size: 0.8em;
+            }
+            a{
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5em;
+                width: fit-content;
+                border: solid 1px white;
+                color: white;
+                margin-top: 1em;
+
+            }
+            ion-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
         .vados-right{
-            flex: 1;
-            background-color: #4dc2c2;
-            height: 100%;
+            width: clamp(300px,65%, 700px);
+
         }
     }
     #advertviewport::-webkit-scrollbar{
@@ -212,4 +232,6 @@ ion-icon{
         width: 100%;
         box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.68);
     }
+
+ 
 }
