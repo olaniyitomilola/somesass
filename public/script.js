@@ -63,9 +63,7 @@ datagetting(content_data).then(()=>{
         vados_left_link.style.color = content.color;
         vados_left_link.style.border = `solid 1px ${content.color}`
         vados_left.append(vados_left_head,vados_left_para,vados_left_link);
-        vadoswrapper.appendChild(vados_left);
-        vadoswrapper.appendChild(vados_right);
-
+        vadoswrapper.append(vados_left,vados_right);
         vados.appendChild(vadoswrapper);
         vados.style.backgroundColor = content.background;
         vados.style.color = content.color;
