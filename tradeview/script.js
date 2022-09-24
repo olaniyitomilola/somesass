@@ -21,5 +21,5 @@ btn.addEventListener('click',(e)=>{
 animet().then(()=>{
     setTimeout(()=>{
         btn.classList.remove('hide2');
-    },2000)
+    },1000)
 })

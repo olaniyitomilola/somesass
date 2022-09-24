@@ -89,6 +89,7 @@ section .section_left form button {
   width: clamp(500px, 70%, 660px);
   border-radius: 60px;
   color: grey;
+  border: none;
   position: relative;
 }
 
